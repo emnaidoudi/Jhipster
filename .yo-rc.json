@@ -1,0 +1,38 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "org.jhipster.blog",
+            "nativeLanguage": "en"
+        },
+        "jhipsterVersion": "5.8.1",
+        "applicationType": "gateway",
+        "baseName": "blog",
+        "packageName": "org.jhipster.blog",
+        "packageFolder": "org/jhipster/blog",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "hazelcast",
+        "enableHibernateCache": true,
+        "websocket": false,
+        "databaseType": "sql",
+        "devDatabaseType": "h2Disk",
+        "prodDatabaseType": "postgresql",
+        "searchEngine": "elasticsearch",
+        "messageBroker": false,
+        "serviceDiscoveryType": "eureka",
+        "buildTool": "maven",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "M2RkMGExYzE3ZTAwYjc2NGE3NGZhOGYxNDQwNDQ2Mjc1MTRmMTQ2MWRiZmNhYzVlNDZlZTZhZWU3NDY3YjMwY2M4MGM5YmI0NmJiNzQ5MGRkNzQzZWY4YTc1YzA3YTNiODk3MmZmYmRhODE5MTQwNzJkYTY2YzgzYTgxYmFmNzA=",
+        "clientFramework": "angularX",
+        "useSass": true,
+        "clientPackageManager": "npm",
+        "testFrameworks": ["gatling", "protractor"],
+        "jhiPrefix": "jhi",
+        "entitySuffix": "",
+        "dtoSuffix": "DTO",
+        "otherModules": [],
+        "enableTranslation": true,
+        "nativeLanguage": "en",
+        "languages": ["en"]
+    }
+}
